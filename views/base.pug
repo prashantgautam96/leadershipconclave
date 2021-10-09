@@ -1,0 +1,23 @@
+//- layout.pug
+html
+  head
+    title D-zone
+    block scripts
+      script(src='/index.js')
+    block style 
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/img/rkt.png") 
+                | LC
+            li #[a(href="/") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/") Services]
+
+            li #[a(href="/contact") Contact Us]
+
+    block content
+    block footer
+      #footer
+        | Copyright © 2021 IITJammu.com | All rights are reserved

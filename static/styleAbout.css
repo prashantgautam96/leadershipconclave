@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.box{
+    display: block;
+    flex-direction: row;
+    
+    margin: 6px 6px;
+    border: 2px solid black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}

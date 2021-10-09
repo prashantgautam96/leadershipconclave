@@ -1,0 +1,41 @@
+extends base.pug
+
+block scripts
+    script(src='/index.js')
+block style 
+    style
+      include ../static/style.css
+
+block content
+    
+    section#introSection 
+        div Welcome to Leadership Conclave
+        div.small ESTD 2021
+    
+    section#missionSection 
+        h2 Our Misssion
+        div.card 
+            h3 Making india to lead
+            div.card-box 
+        
+                div.card-content 
+                    p Leadership is the capacity to translate vision into reality
+        div.card 
+            h3 Devloping leadership Qualities 
+            div.card-box 
+
+                div.card-content 
+                    p Leadership is the capacity to translate vision into reality
+        div.card 
+            h3 Giving Guidence
+            div.card-box 
+               
+                div.card-content 
+                    p Leadership is the capacity to translate vision into reality
+    section#sponsorsSection 
+        h2 Our Sponsors 
+        div#sponsars 
+            img(src="/static/img/lotlogo.png", alt="Sponsor Image",Class="spImage")
+            img(src="/static/img/orlogo.png", alt="Sponsor Image",Class="spImage")
+            img(src="/static/img/twitlolo.png", alt="Sponsor Image",Class="spImage")
+            img(src="/static/img/rkt.png", alt="Sponsor Image",Class="spImage")

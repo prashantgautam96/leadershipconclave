@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html
+  head
+    title D-zone
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/img/rkt.png") 
+                | DZ
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="contact.pug") Contact Us]
+
+    section#introSection 
+        div Welcome to D-zone 
+        div.small Eat Sleep Dance Repeat
+    
+    section#missionSection 
+        h2 Our Misssion
+        div.card 
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/11.png", alt="")
+                div.card-content 
+                    p This is the best dance academy of the universe
+        div.card 
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/22.png", alt="")
+                div.card-content 
+                    p This is the best dance academy of the universe
+        div.card 
+            h3 Expert Teaching
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/33.png", alt="")
+                div.card-content 
+                    p This is the best dance academy of the universe
+    section#sponsorsSection 
+        h2 Our Sponsors 
+        div#sponsars 
+            img(src="/static/img/lotlogo.png", alt="Sponsor Image",Class="spImage")
+            img(src="/static/img/orlogo.png", alt="Sponsor Image",Class="spImage")
+            img(src="/static/img/twitlolo.png", alt="Sponsor Image",Class="spImage")
+            img(src="/static/img/rkt.png", alt="Sponsor Image",Class="spImage")
+           
+    
+    footer#footer 
+        | Copyright © 2020 D-zone.com | All rights are reserved
+    script
+      include ../static/index.js
